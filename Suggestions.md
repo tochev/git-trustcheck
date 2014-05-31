@@ -1,0 +1,12 @@
+Suggestions are accepted for everything, including:
+ - project name
+ - project description
+ - option names
+ - output format
+ - default values
+ - documentation structure
+ - documentation contents
+ - implementation
+ - use cases
+ - more documentation
+ - man page (involves having setup.py)

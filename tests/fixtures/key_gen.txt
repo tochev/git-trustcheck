@@ -1,0 +1,45 @@
+%echo Generating TesterA ###########################
+Key-Type: 1 # RSA and RSA
+Key-Length: 2048
+# Key-Usage: encrypt,sign,auth
+Name-Real: TesterA
+Name-Email: testerA@example.com
+# Name-Comment: 
+# Expire-Date: <iso-date>|(<number>[d|w|m|y])
+%commit
+%echo Generating TesterB ###########################
+Key-Type: 1 # RSA and RSA
+Key-Length: 2048
+# Key-Usage: encrypt,sign,auth
+Name-Real: TesterB
+Name-Email: testerB@example.com
+# Name-Comment: 
+# Expire-Date: <iso-date>|(<number>[d|w|m|y])
+%commit
+%echo Generating TesterC ###########################
+Key-Type: 1 # RSA and RSA
+Key-Length: 2048
+# Key-Usage: encrypt,sign,auth
+Name-Real: TesterC
+Name-Email: testerC@example.com
+# Name-Comment: 
+# Expire-Date: <iso-date>|(<number>[d|w|m|y])
+%commit
+%echo Generating TesterD ###########################
+Key-Type: 1 # RSA and RSA
+Key-Length: 2048
+# Key-Usage: encrypt,sign,auth
+Name-Real: TesterD
+Name-Email: testerD@example.com
+# Name-Comment: 
+# Expire-Date: <iso-date>|(<number>[d|w|m|y])
+%commit
+%echo Generating Expired ###########################
+Key-Type: 1 # RSA and RSA
+Key-Length: 2048
+# Key-Usage: encrypt,sign,auth
+Name-Real: Expired
+Name-Email: expired@example.com
+# Name-Comment: 
+Expire-Date: 1d
+%commit

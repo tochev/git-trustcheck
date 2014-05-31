@@ -1,0 +1,32 @@
+[EXAMPLES]
+.TP
+git trustcheck
+display the untrusted commits for the last HEAD change
+
+[EXAMPLES]
+.TP
+git trustcheck -c HEAD
+display all untrusted commits from the entire history to HEAD (including those with trusted children)
+
+[EXAMPLES]
+.TP
+git trustcheck --setup-gpg-home
+setup repo-specific gpg instance
+
+[EXAMPLES]
+.TP
+git trustcheck -a '*'
+all trusted keys are valid for this repo, useful with a per-repo gpg configuration
+
+[EXAMPLES]
+.TP
+git trustcheck -e -s
+display only untrusted commits and exit with code 1 if there are any
+
+[AUTHOR]
+Tocho Tochev <tocho AT tochev DOT net>
+
+[COPYRIGHT]
+Copyright (C) 2014 Tocho Tochev
+[COPYRIGHT]
+Distributed under the MIT licence.

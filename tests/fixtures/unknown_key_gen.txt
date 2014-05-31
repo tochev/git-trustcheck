@@ -1,0 +1,9 @@
+%echo Generating John Doe ###########################
+Key-Type: 1 # RSA and RSA
+Key-Length: 2048
+# Key-Usage: encrypt,sign,auth
+Name-Real: John Doe
+Name-Email: john.doe@example.com
+# Name-Comment: 
+# Expire-Date: <iso-date>|(<number>[d|w|m|y])
+%commit
